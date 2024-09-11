@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mobile menu */
+.open{
+    display: flex;
+}
+
+/* Custom Design */
+/* Input */
+input{
+    outline: none;
+    color: hsl(0, 87%, 67%);
+}
+.mobbtn{
+    @apply bg-cyan font-medium text-white px-6 py-3 rounded-lg hover:bg-cyanLight hover:text-veryDarkViolet duration-200
+}
+.roundbtn{
+    @apply bg-cyan font-medium text-white px-6 py-3 rounded-full hover:bg-cyanLight hover:text-veryDarkViolet duration-200
+}
+.roundlgbtn{
+    @apply bg-cyan font-bold text-white px-6 py-3 rounded-lg hover:bg-cyanLight hover:text-veryDarkViolet duration-200
+}
+.cards{
+    @apply bg-white flex flex-col items-center md:justify-between md:flex-row rounded-md p-5
+}
+
+#bgchange{
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    background-image: url('/images/bg-shorten-desktop.svg');
+    background-size: cover;
+    background-position-y: center;
+}
+@media screen and (max-width: 768px) {
+    #bgchange{
+        background-image: url('/images/bg-shorten-mobile.svg');
+    }
+}
