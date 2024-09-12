@@ -31,12 +31,12 @@ input{
     width: 100%;
     z-index: 10;
     position: absolute;
-    background-image: url('./images/bg-boost-desktop.svg');
+    background-image: url('../images/bg-boost-desktop.svg');
     background-size: cover;
     background-position-y: center;
 }
 @media screen and (max-width: 768px) {
     #bgchange{
-        background-image: url('./images/bg-shorten-mobile.svg');
+        background-image: url('../images/bg-shorten-mobile.svg');
     }
 }
