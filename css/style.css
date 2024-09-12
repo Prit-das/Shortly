@@ -685,6 +685,10 @@ video {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-2 {
   height: 0.5rem;
 }
@@ -696,10 +700,6 @@ video {
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
-}
-
-.h-10 {
-  height: 2.5rem;
 }
 
 .w-180 {
@@ -776,6 +776,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-20 {
+  gap: 5rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -786,14 +790,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-20 {
-  gap: 5rem;
 }
 
 .rounded-full {
@@ -836,14 +832,14 @@ video {
   background-color: hsl(255 11% 22% / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-veryDarkViolet {
   --tw-bg-opacity: 1;
   background-color: hsl(260 8% 14% / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -898,11 +894,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .text-center {
@@ -965,6 +956,11 @@ video {
   color: hsl(257 27% 26% / var(--tw-text-opacity));
 }
 
+.text-gray {
+  --tw-text-opacity: 1;
+  color: rgb(220 220 220 / var(--tw-text-opacity));
+}
+
 .text-grayishViolet {
   --tw-text-opacity: 1;
   color: hsl(257 7% 63% / var(--tw-text-opacity));
@@ -983,11 +979,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray {
-  --tw-text-opacity: 1;
-  color: rgb(220 220 220 / var(--tw-text-opacity));
 }
 
 /* Mobile menu */
@@ -1090,14 +1081,14 @@ input{
   width: 100%;
   z-index: 10;
   position: absolute;
-  background-image: url('/images/bg-shorten-desktop.svg');
+  background-image: url("../images/bg-boost-desktop.svg");
   background-size: cover;
   background-position-y: center;
 }
 
 @media screen and (max-width: 768px) {
   #bgchange{
-    background-image: url('/images/bg-shorten-mobile.svg');
+    background-image: url("../images/bg-boost-mobile.svg");
   }
 }
 
