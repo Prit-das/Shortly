@@ -30,6 +30,9 @@ input{
 .cards{
     @apply bg-white flex flex-col items-center md:justify-between md:flex-row rounded-md p-5
 }
+.wrappercard{
+    @apply flex flex-col h-fit max-w-md relative rounded-lg px-8 py-4 bg-white
+}
 
 #bgchange{
     height: 100%;
