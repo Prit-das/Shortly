@@ -25,7 +25,7 @@ input{
     @apply bg-cyan font-medium text-white px-6 py-3 rounded-full hover:bg-cyanLight hover:text-veryDarkViolet duration-200
 }
 .roundlgbtn{
-    @apply bg-cyan font-bold text-white px-6 py-3 rounded-lg hover:bg-cyanLight hover:text-veryDarkViolet duration-200
+    @apply bg-cyan text-sm font-bold text-white px-3 py-3 rounded-lg hover:bg-cyanLight hover:text-veryDarkViolet duration-200 lg:text-base lg:px-6
 }
 .cards{
     @apply bg-white flex flex-col items-center md:justify-between md:flex-row rounded-md p-5
